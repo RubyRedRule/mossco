@@ -1,0 +1,5 @@
+node_modules/
+_pgbackup
+_pgexport
+_pginfo
+_pgia
