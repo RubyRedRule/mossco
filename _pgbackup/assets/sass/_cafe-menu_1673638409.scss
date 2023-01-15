@@ -1,0 +1,47 @@
+.cafe-banner {
+    background-image: url('assets/images/cafe-menu/cafe-cakes-banner-min.jpg');
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    box-shadow: inset 0 0 0 2000px rgba(33, 33, 33, 0.56);
+
+    /* width: 100% */
+    height: 20vh;
+}
+
+#cafe-menu-col {
+
+    h1 {
+        font-family: 'Bauhaus';
+    }
+
+    h3 {
+        font-family: 'Bauhaus';
+        text-transform: uppercase;
+    }
+
+    dt {
+        font-family: 'Bauhaus';
+        text-transform: uppercase;
+        padding: 0rem 0rem 0.25rem;
+        color: #a3cdcf;
+        // color: var(--text-primary-NORMAL);
+    }
+
+    .allergen_info {
+        font-size: 12px;
+        letter-spacing: 0.2em;
+        font-weight: 500;
+        color: #bedbd9;
+    }
+
+    .price {
+        font-size: 14px;
+        letter-spacing: 0.2em;
+        padding-top: 12px;
+        color: #bedbd9;
+        font-weight: 500;
+        padding-bottom: 2rem;
+
+    }
+}

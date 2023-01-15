@@ -1,0 +1,11 @@
+/* D Nic of Tifco Hotel Group 2022 - 2023 */
+
+@import "node_modules/@fancyapps/ui/dist/fancybox.css";
+@font-face {
+    font-family: 'bauhaus_lightregular';
+    src: url('bauhauslightregular-webfont.woff2') format('woff2'),
+         url('bauhauslightregular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
