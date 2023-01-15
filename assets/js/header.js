@@ -9,6 +9,7 @@ window.addEventListener('scroll', () => {
 		$logo.classList.remove('scale-125')
 		
 		$fakeHeader.classList.add('scale-y-75')
+		$fakeHeader.classList.add('bg-opacity-75')
 		$fakeHeader.classList.add('shadow-xl')
 		return
 	}
@@ -17,6 +18,7 @@ window.addEventListener('scroll', () => {
 	$logo.classList.add('scale-125')
 	
 	$fakeHeader.classList.remove('scale-y-75')
+	$fakeHeader.classList.remove('bg-opacity-75')
 	$fakeHeader.classList.remove('shadow-xl')
 });
 
