@@ -3,3 +3,5 @@ _pgbackup
 _pgexport
 _pginfo
 _pgia
+functions.php
+functions_backup.php
