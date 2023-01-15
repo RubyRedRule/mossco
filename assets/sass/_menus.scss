@@ -10,7 +10,15 @@
     background-position: center center;
     background-repeat: no-repeat;
     box-shadow: inset 0 0 0 2000px rgba(33, 33, 33, 0.56);
-    height: 25vh;
+    height: 40vh;
+}
+
+.menus-header {
+    position: absolute;
+    top: 55%;
+    left: 50%;
+    width: 100%;
+    transform: translate(-50%, -50%);
 }
 
 
@@ -23,7 +31,7 @@
 
 @media (max-width:47.9375em) {
     #cafe-banner {
-        height: 15vh;
+        // height: 15vh;
     }
 }
 
@@ -47,7 +55,7 @@
 
 @media (max-width:47.9375em) {
     #day-banner {
-        height: 15vh;
+        // height: 15vh;
     }
 }
 
@@ -70,7 +78,7 @@
 
 @media (max-width:47.9375em) {
     #day-banner {
-        height: 15vh;
+        // height: 15vh;
     }
 }
 

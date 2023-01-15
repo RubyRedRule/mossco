@@ -17,7 +17,7 @@ function initMap() {
     map,
     title: "Mossco Restaurant",
     icon: {
-      url: "/wp-content/themes/mossco-hc/assets/images/home/icons/mossco-map-pin-v2.svg",
+      url: "assets/images/home/icons/mossco-map-pin-v2.svg",
       scaledSize: new google.maps.Size(100, 110)
     },
     animation: google.maps.Animation.DROP

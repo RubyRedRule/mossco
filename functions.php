@@ -153,42 +153,45 @@ if ( ! function_exists( 'mossco_hc_enqueue_scripts' ) ) :
         /* Pinegrow generated Enqueue Scripts Begin */
 
     wp_deregister_script( 'mossco_hc-pgia' );
-    wp_enqueue_script( 'mossco_hc-pgia', get_template_directory_uri() . '/pgia/lib/pgia.js', [], '1.0.178', true);
+    wp_enqueue_script( 'mossco_hc-pgia', get_template_directory_uri() . '/pgia/lib/pgia.js', [], '1.0.179', true);
 
-    wp_register_script( 'inline-script-1', '', [], '1.0.178', false );
+    wp_deregister_script( 'mossco_hc-script' );
+    wp_enqueue_script( 'mossco_hc-script', 'https://maps.googleapis.com/maps/api/js?key=AIzaSyDCjQbOAcZR002cGDTl_hchKl_Oo9vI33U&callback=initMap', [], '1.0.179', true);
+
+    wp_register_script( 'inline-script-1', '', [], '1.0.179', false );
     wp_enqueue_script( 'inline-script-1' );
     wp_add_inline_script( 'inline-script-1', '/* Pinegrow Interactions, do not remove */ (function(){try{if(!document.documentElement.hasAttribute(\'data-pg-ia-disabled\')) { window.pgia_small_mq=typeof pgia_small_mq==\'string\'?pgia_small_mq:\'(max-width:767px)\';window.pgia_large_mq=typeof pgia_large_mq==\'string\'?pgia_large_mq:\'(min-width:768px)\';var style = document.createElement(\'style\');var pgcss=\'html:not(.pg-ia-no-preview) [data-pg-ia-hide=""] {opacity:0;visibility:hidden;}html:not(.pg-ia-no-preview) [data-pg-ia-show=""] {opacity:1;visibility:visible;display:block;}\';if(document.documentElement.hasAttribute(\'data-pg-id\') && document.documentElement.hasAttribute(\'data-pg-mobile\')) {pgia_small_mq=\'(min-width:0)\';pgia_large_mq=\'(min-width:99999px)\'} pgcss+=\'@media \' + pgia_small_mq + \'{ html:not(.pg-ia-no-preview) [data-pg-ia-hide="mobile"] {opacity:0;visibility:hidden;}html:not(.pg-ia-no-preview) [data-pg-ia-show="mobile"] {opacity:1;visibility:visible;display:block;}}\';pgcss+=\'@media \' + pgia_large_mq + \'{html:not(.pg-ia-no-preview) [data-pg-ia-hide="desktop"] {opacity:0;visibility:hidden;}html:not(.pg-ia-no-preview) [data-pg-ia-show="desktop"] {opacity:1;visibility:visible;display:block;}}\';style.innerHTML=pgcss;document.querySelector(\'head\').appendChild(style);}}catch(e){console&&console.log(e);}})()');
 
     wp_deregister_script( 'mossco_hc-maps' );
-    wp_enqueue_script( 'mossco_hc-maps', get_template_directory_uri() . '/assets/js/maps.js', [], '1.0.178', false);
-
-    wp_deregister_script( 'mossco_hc-script' );
-    wp_enqueue_script( 'mossco_hc-script', 'https://maps.googleapis.com/maps/api/js?key=AIzaSyDCjQbOAcZR002cGDTl_hchKl_Oo9vI33U&callback=initMap', [], '1.0.178', true);
+    wp_enqueue_script( 'mossco_hc-maps', get_template_directory_uri() . '/assets/js/maps.js', [], '1.0.179', false);
 
     wp_deregister_script( 'mossco_hc-header' );
-    wp_enqueue_script( 'mossco_hc-header', get_template_directory_uri() . '/assets/js/header.js', [], '1.0.178', true);
+    wp_enqueue_script( 'mossco_hc-header', get_template_directory_uri() . '/assets/js/header.js', [], '1.0.179', true);
+
+    wp_deregister_script( 'mossco_hc-fancybox' );
+    wp_enqueue_script( 'mossco_hc-fancybox', get_template_directory_uri() . '/assets/@fancyapps/ui/src/Fancybox/Fancybox.js', [], '1.0.179', true);
 
     /* Pinegrow generated Enqueue Scripts End */
 
         /* Pinegrow generated Enqueue Styles Begin */
 
     wp_deregister_style( 'mossco_hc-tailwind' );
-    wp_enqueue_style( 'mossco_hc-tailwind', get_template_directory_uri() . '/tailwind_theme/tailwind.css', [], '1.0.178', 'all');
+    wp_enqueue_style( 'mossco_hc-tailwind', get_template_directory_uri() . '/tailwind_theme/tailwind.css', [], '1.0.179', 'all');
 
     wp_deregister_style( 'mossco_hc-custom' );
-    wp_enqueue_style( 'mossco_hc-custom', get_template_directory_uri() . '/custom.css', [], '1.0.178', 'all');
+    wp_enqueue_style( 'mossco_hc-custom', get_template_directory_uri() . '/custom.css', [], '1.0.179', 'all');
 
     wp_deregister_style( 'mossco_hc-fancybox' );
-    wp_enqueue_style( 'mossco_hc-fancybox', get_template_directory_uri() . '/assets/css/fancybox.css', [], '1.0.178', 'all');
+    wp_enqueue_style( 'mossco_hc-fancybox', get_template_directory_uri() . '/assets/css/fancybox.css', [], '1.0.179', 'all');
 
     wp_deregister_style( 'mossco_hc-bgimages' );
-    wp_enqueue_style( 'mossco_hc-bgimages', get_template_directory_uri() . '/assets/css/bg-images.css', [], '1.0.178', 'all');
+    wp_enqueue_style( 'mossco_hc-bgimages', get_template_directory_uri() . '/assets/css/bg-images.css', [], '1.0.179', 'all');
 
     wp_deregister_style( 'mossco_hc-all' );
-    wp_enqueue_style( 'mossco_hc-all', 'https://use.fontawesome.com/releases/v5.13.1/css/all.css', [], '1.0.178', 'all');
+    wp_enqueue_style( 'mossco_hc-all', 'https://use.fontawesome.com/releases/v5.13.1/css/all.css', [], '1.0.179', 'all');
 
     wp_deregister_style( 'mossco_hc-style' );
-    wp_enqueue_style( 'mossco_hc-style', get_bloginfo('stylesheet_url'), [], '1.0.178', 'all');
+    wp_enqueue_style( 'mossco_hc-style', get_bloginfo('stylesheet_url'), [], '1.0.179', 'all');
 
     /* Pinegrow generated Enqueue Styles End */
 
