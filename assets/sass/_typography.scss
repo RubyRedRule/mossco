@@ -1,13 +1,35 @@
 // MENUS FONT STYLING
+
+#cafe-banner, #day-banner, #evening-banner {
+
+    h1 {
+        font-family: 'Bauhaus';
+    }
+}
+
+#download-menu {
+    a {
+        font-family: 'Bauhaus';
+    }
+}
+
+.mossco-header {
+    a {
+        font-family: 'Bauhaus';
+    }
+}
+
 #mossco-menu-col {
     h1 {
         font-family: 'Bauhaus';
     }
 
-    h1, h3 {
+    h1,
+    h3 {
         font-family: 'Bauhaus';
         text-transform: uppercase;
         color: $teal-primary;
+
         // color: var(--text-primary-NORMAL);
     }
 
@@ -15,7 +37,6 @@
         font-family: 'Bauhaus';
         text-transform: uppercase;
         color: $grey-semi;
-      
     }
 
     dt {

@@ -1,7 +1,17 @@
+#cafe-banner h1, #day-banner h1, #evening-banner h1 {
+  font-family: "Bauhaus";
+}
+#download-menu a {
+  font-family: "Bauhaus";
+}
+.mossco-header a {
+  font-family: "Bauhaus";
+}
 #mossco-menu-col h1 {
   font-family: "Bauhaus";
 }
-#mossco-menu-col h1, #mossco-menu-col h3 {
+#mossco-menu-col h1,
+#mossco-menu-col h3 {
   font-family: "Bauhaus";
   text-transform: uppercase;
   color: #60aaa9;

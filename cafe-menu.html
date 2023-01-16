@@ -10,9 +10,9 @@
         <meta name="keywords" content="Mossco, Cafe Menu">
         <link rel="icon" href="favicon.svg" type="image/svg+xml">
         <meta name="author" content="TIFCO Hotel Group">
-        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.13.1/css/all.css">
         <link href="assets/css/bg-images.css" rel="stylesheet" type="text/css">
         <script>/* Pinegrow Interactions, do not remove */ (function(){try{if(!document.documentElement.hasAttribute('data-pg-ia-disabled')) { window.pgia_small_mq=typeof pgia_small_mq=='string'?pgia_small_mq:'(max-width:767px)';window.pgia_large_mq=typeof pgia_large_mq=='string'?pgia_large_mq:'(min-width:768px)';var style = document.createElement('style');var pgcss='html:not(.pg-ia-no-preview) [data-pg-ia-hide=""] {opacity:0;visibility:hidden;}html:not(.pg-ia-no-preview) [data-pg-ia-show=""] {opacity:1;visibility:visible;display:block;}';if(document.documentElement.hasAttribute('data-pg-id') && document.documentElement.hasAttribute('data-pg-mobile')) {pgia_small_mq='(min-width:0)';pgia_large_mq='(min-width:99999px)'} pgcss+='@media ' + pgia_small_mq + '{ html:not(.pg-ia-no-preview) [data-pg-ia-hide="mobile"] {opacity:0;visibility:hidden;}html:not(.pg-ia-no-preview) [data-pg-ia-show="mobile"] {opacity:1;visibility:visible;display:block;}}';pgcss+='@media ' + pgia_large_mq + '{html:not(.pg-ia-no-preview) [data-pg-ia-hide="desktop"] {opacity:0;visibility:hidden;}html:not(.pg-ia-no-preview) [data-pg-ia-show="desktop"] {opacity:1;visibility:visible;display:block;}}';style.innerHTML=pgcss;document.querySelector('head').appendChild(style);}}catch(e){console&&console.log(e);}})()</script>
+        <script src="https://cdn.tailwindcss.com/"></script>
     </head>     
     <body data-pg-ia-scene="{&quot;l&quot;:[{&quot;t&quot;:&quot;this&quot;,&quot;a&quot;:&quot;fadeIn&quot;,&quot;p&quot;:&quot;time&quot;,&quot;s&quot;:&quot;0%&quot;}]}" data-pg-ia-hide>
         <header class="h-24 sm:h-28 sticky top-0 z-50" data-pgc-define="mossco-navbar-menus" data-pgc-define-name="Mossco Navbar Menus" data-pgc-section="Mossco Headers and Footers" data-pg-ia-scene='{"l":[{"t":"#gt# div:nth-of-type(1)","a":{"l":[{"t":"","l":[{"t":"set","p":0.5,"d":0,"l":{"autoAlpha":0},"e":"Power1.easeOut"},{"t":"tween","p":0.5,"d":0.5,"l":{"autoAlpha":1},"e":"Power1.easeOut"}]}]},"p":"time","s":"0"},{"t":"nav #gt# div","a":{"l":[{"t":"","l":[{"t":"set","p":0.5,"d":0,"l":{"autoAlpha":0},"e":"Power1.easeOut"},{"t":"tween","p":0.5,"d":0.5,"l":{"autoAlpha":1},"e":"Power1.easeOut"}]}]},"p":"time","s":"0"},{"name":"burger menu","t":"button","a":{"l":[{"t":"","l":[{"t":"set","p":0.5,"d":0,"l":{"autoAlpha":0},"e":"Power1.easeOut"},{"t":"tween","p":0.5,"d":0.5,"l":{"autoAlpha":1},"e":"Power1.easeOut"}]}]},"p":"time","s":"0%"},{"name":"book table button tablet","t":"nav #gt# a:nth-of-type(2)","a":{"l":[{"t":"","l":[{"t":"set","p":0.5,"d":0,"l":{"autoAlpha":0},"e":"Power1.easeOut"},{"t":"tween","p":0.5,"d":0.5,"l":{"autoAlpha":1},"e":"Power1.easeOut"}]}]}}]}'>
@@ -28,7 +28,7 @@
                     </button><a href="#" class="bg-primary-NORMAL font-light hover:bg-primary-700 inline-block nav-btn-tablet-mobile px-5 py-2 rounded text-current text-primary-500 uppercase sm:hidden md:inline-block lg:hidden">Book a Table</a>
                     <script src="pgia/lib/pgia.js"></script>
                     <div class="bg-Mossco-grey-dark bg-opacity-95 hidden mx-auto pl-4 py-8 rounded space-y-2 text-center w-full md:max-w-md md:mr-0 lg:bg-opacity-0 lg:flex lg:max-w-full lg:space-x-4 lg:space-y-0 lg:text-left lg:w-auto" data-name="nav-menu" data-pg-ia-hide> 
-                        <div class="flex flex-col font-medium font-sans text-gray-50 lg:flex-row lg:text-sm"> <a href="cafe-menu.html" class="hover:text-primary-LIGHT px-0 py-2 uppercase lg:px-4">CAFÉ Menu</a> <a href="day-menu.html" class="hover:text-primary-LIGHT px-0 py-2 uppercase lg:px-4">Day Menu</a>
+                        <div class="flex flex-col font-medium text-gray-50 lg:flex-row lg:text-sm"> <a href="cafe-menu.html" class="hover:text-primary-LIGHT px-0 py-2 uppercase lg:px-4">CAFÉ Menu</a> <a href="day-menu.html" class="hover:text-primary-LIGHT px-0 py-2 uppercase lg:px-4">Day Menu</a>
                             <a href="evening-menu.html" class="hover:text-primary-LIGHT px-0 py-2 uppercase lg:px-4">Evening Menu</a><a href="#details-map" class="hover:text-primary-LIGHT px-0 py-2 uppercase lg:px-4" target="#location-map">Location</a>
                         </div>                         <a href="#" class="active:bg-primary-DARK bg-primary-NORMAL duration-300 ease-out font-medium font-sans hover:bg-primary-LIGHT hover:ring hover:ring-primary-DARK inline-block px-5 py-2 rounded text-white transition uppercase">Book a Table</a> 
                     </div>                     
@@ -41,7 +41,7 @@
                     <h1 class="flex font-medium font-sans lowercase text-5xl text-center translate-y-12 sm:text-6xl md:text-6xl lg:text-6xl xl:text-7xl 2xl:text-7xl">Café menu</h1>
                 </div>
             </section>
-            <section id="mossco-menu-col" class="container flex flex-wrap max-w-screen-xl mx-auto px-4 py-14">
+            <section id="mossco-menu-col" class="container flex flex-wrap font-sans max-w-screen-xl mx-auto px-4 py-14">
                 <div class="gap-2 grid grid-cols-1 md:gap-10 md:grid-cols-2">
                     <div class="col-span-1 menu" data-pg-name="Menu col 1">
                         <h3 class="font-sans text-3xl text-primary-NORMAL uppercase">Café</h3>
@@ -171,7 +171,7 @@
                     </div>
                 </div>
             </section>
-            <section id="download-cafe-menu" class="bottom-0 container flex items-center justify-center max-w-screen-xl ml-auto mx-auto px-4 rounded-md sticky xl:pr-2 2xl:pr-0" data-pg-ia-scene='{"l":[{"t":"#gt# div:nth-of-type(1) #gt# div:nth-of-type(2)","p":"time","a":{"l":[{"t":"","l":[{"t":"set","p":1.3,"d":0,"l":{"autoAlpha":0,"y":"100%"},"e":"Power1.easeOut"},{"t":"tween","p":1.3,"d":0.5,"l":{"autoAlpha":1,"y":"0%"},"e":"Power1.easeOut"}]}]}}]}'>
+            <section id="download-menu" class="bottom-0 container flex items-center justify-center max-w-screen-xl ml-auto mx-auto px-4 rounded-md sticky xl:pr-2 2xl:pr-0" data-pg-ia-scene='{"l":[{"t":"#gt# div:nth-of-type(1) #gt# div:nth-of-type(2)","p":"time","a":{"l":[{"t":"","l":[{"t":"set","p":1.3,"d":0,"l":{"autoAlpha":0,"y":"100%"},"e":"Power1.easeOut"},{"t":"tween","p":1.3,"d":0.5,"l":{"autoAlpha":1,"y":"0%"},"e":"Power1.easeOut"}]}]}}]}'>
                 <div class="container flex grid grid-cols-1 items-end justify-end px-0 sm:grid-cols-1 md:grid-cols-2 md:px-4 lg:grid-cols-3 lg:justify-center lg:px-4 xl:justify-center xl:px-5 2xl:justify-center 2xl:px-6">
                     <div class="col-span-2 hidden sm:col-span-1 sm:hidden md:col-span-1 md:flex lg:col-span-2" data-empty-placeholder></div>
                     <div class="bg-Mossco-grey-dark bg-opacity-25 col-span-1 flex h-full items-center justify-center my-auto py-6 rounded-sm md:py-8" data-pg-ia-hide>
