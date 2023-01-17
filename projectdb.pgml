@@ -16,7 +16,7 @@
                 <dmcolor key="transparent" color="rgba(255, 255, 255, 0)"/>
                 <dmcolor key="Mossco-teal" color="#3f7078" shade-faint="#bedbd9" shade-light="#a3cdcf" shade-dark="#3f7078"/>
             </dmdesignskill>
-            <dmdesignskill skill="fonts" family_2="Montserrat" h1_2 family_1="Bauhaus" family_3="" name_3="" h2_1 h2_2="h2" h1_1="h1" h3_1="h3" h3_2 h4_2 h4_1></dmdesignskill>
+            <dmdesignskill skill="fonts" family_2="Montserrat" h1_2 family_1="Bauhaus" family_3="Bauhaus" name_3="Bauhuas" h2_1 h2_2="h2" h1_1="h1" h3_1="h3" h3_2 h4_2 h4_1 h1_3="h1"></dmdesignskill>
             <dmdesignskill skill="background" image_for_colors advanced="true" color="Mossco-grey-background" selector=".hero-poster" source="unsplash" image_lg folder="/Users/dmcphillips/Library/CloudStorage/OneDrive-TifcoHotelGroup/Dev/Mossco/assets/images/hero" image_sm></dmdesignskill>
             <dmdesignskill skill="tailwind" disable.preflight></dmdesignskill>
         </dmdesign>
